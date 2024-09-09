@@ -1,10 +1,13 @@
-# Sentiment Analysis of NHL Teams with Tweet Generation Using GPT, Deployed on AWS Free Tier
+# Sentiment Analysis of NHL Fan Forums
 
-End-to-end data science project that incorporates various elements inlcuding raw data processing, NLP tasks, and cloud/big data technologies.
+![HFBoards](images/hfboards_logo.jpg)
+
+End-to-end data science project that incorporates various elements inlcuding raw data processing, NLP-related tasks such as sentiment analysis, classification and topic modelling. Will eventually be extended to deployment via FastAPI as well as GPT-based content generation.
 
 Objective:
 
-- Analysis of the sentiment of tweets related to NHL teams based on hashtags
-- Generation of follow-up tweets using GPT
-- Identification of trends in which teams are most discussed, their related sentiment, and prediction of how sentiment shifts before and after games or major events (trades, playoffs, etc.)
-- deployment of project on AWS cloud
+- Scraping of forum posts from various subforums on https://forums.hfboards.com/.
+- Analysis of the sentiment of different fan groups based on team-specific subforums and the development of their respective sentiments over time.
+- Generation of follow-up contributions using GPT.
+- Identification of trends in which teams are most discussed, their related sentiment, and prediction of how sentiment shifts before and after games or major events (trades, playoffs, etc.).
+- Deployment of a classification model using a cloud service.
